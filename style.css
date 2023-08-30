@@ -13,10 +13,21 @@ body {
   justify-content: space-between;
   color: rgb(226, 226, 226);
   font-size: 0.7em;
-  line-height: 5px;
+  line-height: 4px;
+  border-bottom: 1px solid rgb(226, 226, 226);;
+  padding-bottom: 8px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .container {
+  background-color: black;
+  display: flex;
+  height: 90vh;
+  opacity: .5;
+}
+
+.center {
   position: absolute;
   top: 45%;
   -ms-transform: translateY(-50%);
