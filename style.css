@@ -8,14 +8,21 @@ body {
   font-family: 'Tektur', cursive;
 }
 
+a {
+  text-decoration: none;
+}
+
 .head {
   display: flex;
   justify-content: space-between;
-  color: rgb(226, 226, 226);
   font-size: 0.7em;
   line-height: 4px;
   border-bottom: 1px solid rgb(226, 226, 226);
   padding-bottom: 8px;
+}
+
+.head a {
+  color: rgb(226, 226, 226);
 }
 
 .head h2 {
@@ -37,7 +44,7 @@ body {
   transform: translateX(-50%);
 }
 
-button {
+#walkme {
 
   font-family: 'Roboto Slab', serif;
   font-family: 'Tektur', cursive;
@@ -70,7 +77,6 @@ button {
 }
 
 .menu a {
-  text-decoration: none;
   color: #764aff;
   box-sizing: border-box;
   padding: 5px;
@@ -79,6 +85,10 @@ button {
 }
 
 .menu a:hover {
+  color: #64ffa0;
+}
+
+.menu a:active {
   color: #64ffa0;
 }
 
@@ -101,9 +111,39 @@ footer h1 {
   bottom: 0;
 }
 
+.tabs {
+  position:absolute;
+  display: flex;
+  justify-content:right;
+  right: 7px;
+  color:#64ffa0;
+  padding: 7px;
+  border: 1px solid #64ffa0;
+  margin-top: 7px;
+  text-align: right;
+  max-width: 300px;
+}
+
+.tabs a {
+  color:#64ffa0;
+}
+
+.tabs a:hover {
+  background-color:#64ffa0;
+  color:#1e1e1e;
+}
+
+.tabs p {
+  text-transform: lowercase;
+}
+
+.tabs span {
+  color:#764aff;
+}
+
 @media only screen and (max-width: 768px) {
   .menu a {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 0;
   }
 }

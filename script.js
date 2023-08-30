@@ -12,7 +12,7 @@ var containerHeight = 0;
     }
 
     function hideButton() {
-      var button = document.getElementById("myButton");
+      var button = document.getElementById("walkme");
       button.style.display = "none";
     }
 
@@ -53,3 +53,75 @@ var containerHeight = 0;
     }
 
     window.onload = init;
+
+    function ShowWork() {
+      const y = document.getElementById('founders');
+      const x = document.getElementById('work');
+      const z = document.getElementById('contacts');
+
+      if (y.style.display = 'block') {
+        x.style.display = 'block';
+        y.style.display = 'none';
+        z.style.display = 'none';
+      } else if (z.style.display = 'block') {
+        x.style.display = 'block';
+        y.style.display = 'none';
+        z.style.display = 'none';
+      } else {
+        x.style.display = 'block';
+        y.style.display = 'none';
+        z.style.display = 'none';
+      }
+      return hideButton();
+    }
+
+    function ShowFounders() {
+      const x = document.getElementById('work');
+      const y = document.getElementById('founders');
+      const z = document.getElementById('contacts');
+
+      if (x.style.display = 'block') {
+        x.style.display = 'none';
+        y.style.display = 'block';
+        z.style.display = 'none';
+      } else if (z.style.display = 'block') {
+        x.style.display = 'none';
+        y.style.display = 'block';
+        z.style.display = 'none';
+      } else {
+        x.style.display = 'none';
+        y.style.display = 'block';
+        z.style.display = 'none';
+      }
+      return hideButton();
+    }
+
+    function ShowContacts() {
+      const x = document.getElementById('work');
+      const y = document.getElementById('founders');
+      const z = document.getElementById('contacts');
+
+      if (x.style.display = 'block') {
+        x.style.display = 'none';
+        y.style.display = 'none';
+        z.style.display = 'block';
+      } else if (y.style.display = 'block') {
+        x.style.display = 'none';
+        y.style.display = 'none';
+        z.style.display = 'block';
+      } else {
+        x.style.display = 'none';
+        y.style.display = 'none';
+        z.style.display = 'block';
+      }
+      return hideButton();
+    }
+
+    function GoHome() {
+      const x = document.getElementById('work');
+      const y = document.getElementById('founders');
+      const z = document.getElementById('contacts');
+      x.style.display = 'none';
+      y.style.display = 'none';
+      z.style.display = 'none';
+    }
