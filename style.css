@@ -100,3 +100,15 @@ footer h1 {
   margin: 0;
   bottom: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .menu a {
+    font-size: 1em;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e;
+  }
+}
