@@ -1,10 +1,14 @@
 var objImage = null;
+var container = null;
+var containerWidth = 0;
+var containerHeight = 0;
 
     function init() {
       objImage = document.getElementById("octo");
       objImage.style.position = "relative";
       objImage.style.left = "0px";
       objImage.style.top = "0px";
+
     }
 
     function hideButton() {
