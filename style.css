@@ -18,6 +18,10 @@ body {
   padding-bottom: 8px;
 }
 
+.head h2 {
+  color: #64ffa0;
+}
+
 .container {
   display: flex;
   height: 90vh;
@@ -59,22 +63,39 @@ button {
 
 .menu {
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-end;
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 60px;
 }
 
 .menu a {
-  flex: 1;
   text-decoration: none;
   color: #764aff;
   box-sizing: border-box;
   padding: 5px;
+  margin-left: 10px;
 }
 
 .menu a:hover {
-  background-color: #764aff;
-  color: #1e1e1e;
+  color: #64ffa0;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  text-align: right;
+  bottom: 0;
+  width: 100%;
+  color: rgb(226, 226, 226);
+  font-size: 0.7em;
+  margin-top: auto;
+}
+
+footer h1 {
+  position: relative;
+  margin: 0;
+  bottom: 0;
 }

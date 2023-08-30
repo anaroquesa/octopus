@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>brainn.ai</title>
+    <title>brainn</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;800&family=Tektur&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/fav.png" style="width:10px; height:auto;>
+    <link rel="icon" type="image/png" href="/fav.png">
   </head>
 
   <body onkeydown="getKeyAndMove(event)">
     <div class="head">
       <h1>brainn</h1>
-      <h1>use yours</h1>
+      <div class="menu">
+        <a href="#">< work /></a>
+        <a href="#">< founders /></a>
+        <a href="#">< contacts /></a>
+        <a href="#" class="active"><img src="fav.png" style="width:20px; height:auto;"></a>
+      </div>
     </div>
     <button id="myButton"><  walk me  ></button>
     <div class="container">
@@ -22,13 +27,9 @@
         <img src="gif.gif" id ="octo" style="width:50px; height:auto;">
       </div>
 
-      <div class="menu">
-        <a href="#" class="active">< home ></a>
-        <a href="#">< work ></a>
-        <a href="#">< founders ></a>
-        <a href="#">< contacts ></a>
-      </div>
-
+      <footer>
+        <h1>use yours</h1>
+      </footer>
     </div>
   </body>
 </html>
