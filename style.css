@@ -53,7 +53,7 @@ button {
   left:50%;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  color: yell
+}
 
 @keyframes blinker {
   50% {
