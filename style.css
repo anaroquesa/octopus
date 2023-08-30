@@ -106,9 +106,3 @@ footer h1 {
     font-size: 1em;
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #1e1e1e;
-  }
-}
