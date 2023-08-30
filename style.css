@@ -75,6 +75,7 @@ button {
   box-sizing: border-box;
   padding: 5px;
   margin-left: 10px;
+  font-size: 1.2em;
 }
 
 .menu a:hover {
