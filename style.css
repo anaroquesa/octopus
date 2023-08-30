@@ -53,7 +53,7 @@ button {
   left:50%;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-}
+  color: yell
 
 @keyframes blinker {
   50% {
@@ -103,6 +103,6 @@ footer h1 {
 
 @media only screen and (max-width: 768px) {
   .menu a {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
